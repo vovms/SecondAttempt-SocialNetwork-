@@ -1,7 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import Footer from './Footer';
 
-function App() {
+
+const App = () => {
+  return(
+    <div className="App">
+      <Header />
+      <Footer />
+    </div>
+  );
+}
+
+
+/*function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +33,7 @@ function App() {
       </header>
     </div>
   );
-}
+}*/
 
 export default App;
+  
