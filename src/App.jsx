@@ -1,18 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-import Header from './Header';
-import Footer from './Footer';
-
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./components/Header";
+import Footer from "./Footer";
+import NavBar from "./components/NavBar";
+import Content from "./components/Content";
 
 const App = () => {
-  return(
-    <div className="App">
-      <Header />
-      <Footer />
+  return (
+    <div className="app-wrapper">
+      <Header text = "testProps" /> 
+      <NavBar />
+      <Content />
     </div>
   );
-}
-
+};
 
 /*function App() {
   return (
@@ -36,4 +37,3 @@ const App = () => {
 }*/
 
 export default App;
-  
